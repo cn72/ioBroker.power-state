@@ -1,0 +1,49 @@
+{
+    "expert": "yes",
+    "cli": false,
+    "adapterName": "power-state",
+    "title": "Power-State",
+    "description": "Shows the status of a device depending on the power requirement",
+    "keywords": "",
+    "contributors": "",
+    "authorName": "Christoph Nienhausen",
+    "authorGithub": "cn72",
+    "authorEmail": "c.nienhausen@acr-vechta.de",
+    "features": [
+        "adapter"
+    ],
+    "adminFeatures": [],
+    "type": "iot-systems",
+    "startMode": "daemon",
+    "connectionType": "local",
+    "dataSource": "push",
+    "connectionIndicator": "no",
+    "adapterSettings": [
+        {
+            "key": "option1",
+            "defaultValue": true,
+            "inputType": "checkbox"
+        },
+        {
+            "key": "option2",
+            "defaultValue": "42",
+            "inputType": "text"
+        }
+    ],
+    "language": "JavaScript",
+    "nodeVersion": "16",
+    "adminUi": "json",
+    "releaseScript": "yes",
+    "indentation": "Space (4)",
+    "quotes": "single",
+    "es6class": "yes",
+    "tools": [
+        "ESLint",
+        "type checking"
+    ],
+    "gitRemoteProtocol": "HTTPS",
+    "license": "MIT License",
+    "dependabot": "yes",
+    "target": "github",
+    "creatorVersion": "2.3.0"
+}
