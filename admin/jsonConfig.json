@@ -4,12 +4,12 @@
     "items": {
         "option1": {
             "type": "checkbox",
-            "label": "option1",
+            "label": "option10",
             "newLine": true
         },
         "option2": {
             "type": "text",
-            "label": "option2",
+            "label": "option40",
             "newLine": true
         }
     }
