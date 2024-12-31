@@ -1,16 +1,52 @@
 {
     "i18n": true,
-    "type": "panel",
+    "type": "tabs",
     "items": {
-        "option1": {
-            "type": "checkbox",
-            "label": "option10",
-            "newLine": true
-        },
-        "option2": {
-            "type": "text",
-            "label": "option40",
-            "newLine": true
+        "_main":{
+            "type":  "panel",
+            "label": "Devices",
+            "items": {
+                "devices":{
+                    "type": "table",
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "showSecondAddAt": 10,
+                    "export": true,
+                    "import": true,
+                    "items": [
+                        {
+                            "type": "checkbox",
+                            "attr": "enabled",
+                            "title": "Enabled",
+                            "width": 70
+                        },
+                        {
+                            "type": "text",
+                            "attr": "name",
+                            "title": "Name"
+                        },
+                        {
+                            "type": "checkbox",
+                            "attr": "use_name",
+                            "title": "Use name",
+                            "width": 70
+                        },
+                        {
+                            "type": "text",
+                            "attr": "ip",
+                            "title": "IP Address"
+                        },
+                        {
+                            "type": "checkbox",
+                            "attr": "extended_info",
+                            "title": "Extended Info",
+                            "width": 70
+                        }
+                    ]
+                }
+            }
         }
     }
 }
